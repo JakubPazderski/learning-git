@@ -4,6 +4,6 @@ shopping_dict={
     "warzywniak":[shopping_list[3].capitalize(), shopping_list[4].capitalize(), shopping_list[5].capitalize()]
 }
 for shop,products in shopping_dict.items():
-    print (f"Wchodzę do {shop} i kupuję {products}.")
+    print (f"Wchodzę do {shop.capitalize()} i kupuję {products}.")
 print (f"W sumie kupuję {len(shopping_list)} produktów.")
 print ("Czy zakupy się udały?")
